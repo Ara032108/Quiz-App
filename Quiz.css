@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    display: flex;
+    background-image: url(personality-quiz.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    
+}
+.Container{
+    text-align: center;
+    
+    width: 30vh;
+    margin: auto;
+    
+}
+/* h1{
+    margin-bottom: 3%;
+    margin-left: 5%;
+    color: rgb(7, 7, 7);
+    width: 50%;
+    align-items: center;
+    align-items: center;
+
+} */
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+button{
+    display: flex;
+    border: 5%;
+    border-radius: 1%;
+    width: 50%;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 25%;
+    text-align: center;
+}
+button:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    
+}
